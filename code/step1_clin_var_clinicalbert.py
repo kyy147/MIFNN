@@ -56,7 +56,7 @@ cuda_id = args.cuda_id
 modality = args.modality
 pt_path = './datasets/pt_file'
 file_path = "./datasets/Clin/MVI-HCC-samples.xlsx"
-label_col = "标签1（MVI+卫星灶；0阴性；阳性1）"
+label_col = "MVI"
 
 main_timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
 main_save_dir = f"./logs/{modality}/Fold{fold_num}/param_search_exp_{main_timestamp}"

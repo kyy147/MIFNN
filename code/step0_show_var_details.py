@@ -173,7 +173,7 @@ if __name__ == "__main__":
     test_pt_path  = "./datasets/pt_file/external_test_fold1.pt"
 
     id_col = "患者编号"
-    label_col = "标签1（MVI+卫星灶；0阴性；阳性1）"
+    label_col = "MVI"
 
     discrete_cols = [
         "肝炎类型（0无；1肝炎；2酒精肝）",

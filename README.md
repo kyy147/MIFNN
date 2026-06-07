@@ -106,6 +106,7 @@ MIFNN
 
 **Note.** This project uses Python 3.9.19, torch 2.7.1+cu118. Also, we used four NVIDIA GTX 3090 for the experiments.<br>
 
+### The operation details are incode/crun_code.md
 Run "step4_ALL_modality.py" as an example:
 > python code/step4_ALL_modality.py \
     --modality ALL_modality_all \

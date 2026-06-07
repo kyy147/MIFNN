@@ -352,7 +352,7 @@ class MultiModelDataset(Dataset):
         # Process labels
         label_col = "xx"
         if label_col not in df.columns:
-            label_col = "标签1（MVI+卫星灶；0阴性；阳性1）"  # Compatible with original label column name
+            label_col = "MVI"  # Compatible with original label column name
         df['label'] = pd.to_numeric(df[label_col], errors='coerce').fillna(0).astype(int)
 
         # Process categorical features

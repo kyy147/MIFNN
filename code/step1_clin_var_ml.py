@@ -35,7 +35,7 @@ warnings.filterwarnings('ignore')
 n_folds = 5  # Number of folds
 pt_base_path = "./datasets/pt_file"
 file_path = "datasets/Clin/MVI-HCC-samples.xlsx"
-label_col = "标签1（MVI+卫星灶；0阴性；阳性1）"  # Binary classification label column
+label_col = "MVI"  # Binary classification label column
 
 # Base path for saving results
 results_base_path = "./logs/Clin_ML"

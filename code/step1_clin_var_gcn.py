@@ -42,7 +42,7 @@ set_seed(1)
 n_folds = 5
 pt_base_path = "./datasets/pt_file"
 file_path = "datasets/Clin/MVI-HCC-samples.xlsx"
-label_col = "标签1（MVI+卫星灶；0阴性；阳性1）"
+label_col = "MVI"
 sub_val_ratio = 0.25  # Ratio to split sub-validation set from training set
 
 results_base_path = "./logs/Clin_GCN"

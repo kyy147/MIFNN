@@ -167,7 +167,7 @@ if __name__ == '__main__':
     # File path
     file_path = "./datasets/Clin/MVI-HCC-samples.xlsx"
     # Outcome label column (binary: 0=negative, 1=positive)
-    label_col = "标签1（MVI+卫星灶；0阴性；阳性1）"
+    label_col = "MVI"
 
     # 🔹 Categorical/discrete variables
     discrete_cols = [
