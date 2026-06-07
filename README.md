@@ -90,8 +90,8 @@ MIFNN
 ├─ README.md
 └─ requirements.txt
 ```
-**ckpt:** the network_weights folder contains the trained model weights; the pretrained_weights folder contains the official and original model weights. 
-[Download](https://drive.google.com/drive/folders/10Ri_dwGoNbCkSx-5_QIENBl7Uu2YKznu?usp=drive_link)
+**ckpt:** the network_weights folder contains the trained model weights; the pretrained_weights folder contains the official and original model weights. You can download the weights here and place them in the "ckpt" folder.
+**[Download](https://drive.google.com/drive/folders/10Ri_dwGoNbCkSx-5_QIENBl7Uu2YKznu?usp=drive_link)**
 <br>
 **code:** this folder contains the code for training and testing.<br>
 **datasets:** this folder contains multimodal sample data.<br>

@@ -33,8 +33,8 @@ feature_mapping = {
     
     # Continuous variables
     "病灶最大径(单位cm）": "Maximum diameter of lesion(cm)",
-    "达峰用时": "Time to peak (s)",
-    "低增强开始时间(s）": "Start time of low enhancement(s)",
+    "达峰用时": "Time to reach the peak（s）",
+    "低增强开始时间(s）": "Start time of washout (s)",
     "AFP": "AFP level(ng/mL)",
     "周边浸润（mm)": "Tumor infiltration boundary(mm)"
 }
